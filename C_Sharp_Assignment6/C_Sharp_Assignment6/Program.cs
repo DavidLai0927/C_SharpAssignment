@@ -8,7 +8,7 @@ namespace C_Sharp_Assignment6
 {
     public class Person
     {
-        public string name { get; set;}
+        public string name { get; set; }
         public bool male { get; set; }
     }
 
@@ -16,7 +16,7 @@ namespace C_Sharp_Assignment6
     {
         public void TakeTest()
         {
-            Console.WriteLine("Student {0} takes test.",name);
+            Console.WriteLine("Student {0} takes test.", name);
         }
     }
 

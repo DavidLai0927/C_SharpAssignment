@@ -13,7 +13,7 @@ namespace C_Sharp_Assignment5
             this.firstName = fN;
             this.lastName = lN;
         }
-        public string firstName { get; set;}
+        public string firstName { get; set; }
         public string lastName { get; set; }
         public string birthday { get; set; }
         public string addressLine1 { get; set; }
@@ -66,7 +66,7 @@ namespace C_Sharp_Assignment5
         public string name { get; set; }
         //public string teacher { get; set; }
         public string time { get; set; }
-        public Student [] students = new Student[3];
+        public Student[] students = new Student[3];
         public Teacher[] teachers = new Teacher[3];
     }
 
@@ -83,7 +83,7 @@ namespace C_Sharp_Assignment5
             cource.students[0] = student1;
             cource.students[1] = student2;
             cource.students[2] = student3;
-            Teacher teacher1 = new Teacher("David","DDD");
+            Teacher teacher1 = new Teacher("David", "DDD");
             cource.teachers[0] = teacher1;
             Degree degree = new Degree("Bachelor");
             UProgram uprogram = new UProgram("Information Technology");

@@ -1,0 +1,6 @@
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\bin\Debug\C_Sharp_Assignment1.exe.config
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\bin\Debug\C_Sharp_Assignment1.exe
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\bin\Debug\C_Sharp_Assignment1.pdb
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\obj\Debug\C_Sharp_Assignment1.csprojResolveAssemblyReference.cache
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\obj\Debug\C_Sharp_Assignment1.exe
+c:\users\davidlai\documents\visual studio 2012\Projects\C_Sharp_Assignment1\C_Sharp_Assignment1\obj\Debug\C_Sharp_Assignment1.pdb

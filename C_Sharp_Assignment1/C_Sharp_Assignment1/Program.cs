@@ -22,13 +22,15 @@ namespace ConsoleApplication1
 
             //user interface
             int flag = 1;
-            while ( flag == 1 || flag == 2 ) {
+            while (flag == 1 || flag == 2)
+            {
                 System.Console.WriteLine("Welcome, Enter '1' for showing Student Profile '2' for Change Student Profile '3' to leave");
                 System.Console.Write("# ");
                 string input = System.Console.ReadLine();
                 flag = Convert.ToInt32(input);
-                
-                switch(flag) {
+
+                switch (flag)
+                {
                     case 1:
                         System.Console.WriteLine("------------Student Profile-------------");
                         System.Console.Write("FirstName : " + firstName);
@@ -40,19 +42,22 @@ namespace ConsoleApplication1
                         System.Console.WriteLine("State : " + state);
                         System.Console.WriteLine("Postal_or_Zip : " + postal_or_Zip);
                         System.Console.WriteLine("Country : " + country);
-                        
-                        if( male ) {
+
+                        if (male)
+                        {
                             System.Console.WriteLine("Is Male");
-                        } else {
+                        }
+                        else
+                        {
                             System.Console.WriteLine("Is Female");
                         }
-                        
+
                         System.Console.WriteLine("Height : " + height);
-                        System.Console.WriteLine("Weight : " + weight);                        
+                        System.Console.WriteLine("Weight : " + weight);
                         System.Console.WriteLine("Any Key to continue:");
                         System.Console.ReadLine(); // Parse
                         break;
-                        
+
                     case 2:
                         System.Console.WriteLine("------------Enter Student Profile-------------");
                         System.Console.Write("FirstName : ");
@@ -70,48 +75,51 @@ namespace ConsoleApplication1
                         System.Console.Write("State : ");
                         state = System.Console.ReadLine();
                         System.Console.Write("Zip/Postal : ");
-                        postal_or_Zip = Convert.ToInt32( System.Console.ReadLine() );
+                        postal_or_Zip = Convert.ToInt32(System.Console.ReadLine());
                         System.Console.Write("Country : ");
                         country = System.Console.ReadLine();
-                    
+
                         System.Console.Write("Is male (true/false) : ");
                         input = System.Console.ReadLine();
                         bool result = input.Equals("male", StringComparison.Ordinal);
-                        if( result ) {
+                        if (result)
+                        {
                             male = true;
-                        } else {
+                        }
+                        else
+                        {
                             male = false;
                         }
-                    
+
                         System.Console.Write("Height : ");
-                        height = float.Parse( System.Console.ReadLine() );
+                        height = float.Parse(System.Console.ReadLine());
                         System.Console.Write("Weight : ");
-                        weight = float.Parse( System.Console.ReadLine() );
-                    
-                        System.Console.WriteLine("Thanks for your input.");                   
+                        weight = float.Parse(System.Console.ReadLine());
+
+                        System.Console.WriteLine("Thanks for your input.");
                         break;
-                        
+
                     default:
                         break;
-                    
-                }
-                
-                
 
-            
-                    
-                    
-                    
-                
+                }
+
+
+
+
+
+
+
+
 
             }
-            
-            
 
-            
+
+
+
         }
 
-  
+
     }
 
 

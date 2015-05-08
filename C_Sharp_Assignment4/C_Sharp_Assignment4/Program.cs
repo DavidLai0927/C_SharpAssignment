@@ -54,7 +54,7 @@ namespace C_Sharp_Assignment4
                     Console.Write("LastName : ");
                     students[i].lastName = Console.ReadLine();
                     Console.Write("id (digits) : ");
-                    students[i].id = Int32.Parse( Console.ReadLine() );
+                    students[i].id = Int32.Parse(Console.ReadLine());
                 }
                 catch (Exception e)
                 {
@@ -62,7 +62,7 @@ namespace C_Sharp_Assignment4
                 }
 
 
-                
+
             }
 
             for (int i = 0; i < students.Length; i++)
@@ -76,7 +76,7 @@ namespace C_Sharp_Assignment4
 
             //Console.WriteLine("student[2] firstName {0} , lastName {1} , id {2}", students[2].firstName, students[2].lastName, students[2].id);
             Console.ReadLine();//parse
-            
+
         }
     }
 }
